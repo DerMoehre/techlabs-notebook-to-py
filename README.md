@@ -48,8 +48,8 @@ To get this project up and running locally, follow these steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/DerMoehre/techlabs-classification.git](https://github.com/DerMoehre/techlabs-classification.git)
-    cd techlabs-classification
+    git clone [https://github.com/DerMoehre/techlabs-notebook-to-py.git](https://github.com/DerMoehre/techlabs-notebook-to-py.git)
+    cd techlabs-notebook-to-py
     ```
 2.  **Create a virtual environment (recommended):**
     ```bash
