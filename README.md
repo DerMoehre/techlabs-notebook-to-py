@@ -89,6 +89,13 @@ The `diabetes_eda_analysis.py` file has been meticulously prepared to run the en
     ```
     The script will print outputs to your console and display the generated plots (each plot will appear in a separate window and require closing to proceed to the next, unless `plt.savefig()` is used instead of `plt.show()`).to the code).
 
+## Why converting the Notebook to a python file
+* **Automation:** With a plain python file, you can automate the run of your created script with tools on a server. So you could run your script automatically every hour, every day etc.
+* **Scaling the project:** It is much easier to scale a project, if you use a Python project structure. You can reuse written code and split the code more easily.
+* **Implement dashboarding tools:** Tools like streamlit, plotly-dash etc. can be used to show the analysis to your management or stakeholders.
+* **Easier workflow on GitHub:** If you tried to merge different JupyterNotebooks, you know the pain :-)
+* **Notebook is for protoyping:** This is where the Notebooks has its strength. If you start the project, or just want to have a quick look around the data - Notebook is your friend 
+
 ## Important Considerations for Manual Notebook-to-Script Conversion
 
 When manually converting code from a Jupyter Notebook (`.ipynb`) to a Python script (`.py`), keep the following best practices and common pitfalls in mind:
